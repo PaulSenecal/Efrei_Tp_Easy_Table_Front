@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import ReservationsList from "./components/ReservationsList"
+import ReservationsList from './components/ReservationsList';
+
 function App() {
   const [restaurantId, setRestaurantId] = useState(1); // Example restaurant ID
 
