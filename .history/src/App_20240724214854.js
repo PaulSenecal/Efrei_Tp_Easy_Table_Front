@@ -17,7 +17,6 @@ function App() {
         <input type="number" value={restaurantId} onChange={handleChange} />
       </label>
       <ReservationsList restaurantId={parseInt(restaurantId, 10)} />
-      <ReservationForm />
     </div>
   );
 }
